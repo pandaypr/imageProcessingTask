@@ -27,8 +27,11 @@ Class, class inheritance, function overloading and Constructor are used in the s
 
 
 Results & Comments:
+
     1. While designing the solution, more emphasis was given for Code Clarity, Ease of use & Robustness. Just put the images in ppm format in the folder and it reads the file and converts them. Another solution implemented was by passing files as arguments to main, but that would work only for one file at a time and had ŕun time issues of being unable to read the file on every run.
+    
     2. I will rate the Runtime & Memory Utilization as high mainly due to using RGB format when only Greyscale could be used, I did dwell into it, but the PGM image family converters available online and libraries from python (CV2 libraries)for Grey-scale images were not consistent and it would be hard for the user to do multiple steps to convert an image to a specific type, I also tried to write a program to do the conversion from RGB to Grey-Scale in C++ but for some reason it was converting only 30% of the image and the remaining pixels would come black, debugging it was hard as the file is stored in binary format, hence I decided to go ahead with RGB colored .ppm images which has good consistency in terms of conversion from other formats. 
+    
     3. I used GCC compiler instead of CUDA5.5 as I do not have a GPU, also setup of the CUDA and availability of the equivalent libraries used were not guaranteed and I had a time line to meet.
 
 
@@ -37,6 +40,7 @@ Additional Info:
       
       There is another file which explains the structure well, it is available online for free:
       https://people.cs.clemson.edu/~dhouse/courses/405/notes/ppm-files.pdf
+
 
     • Sample .ppm image file format:
 	P6 -- magic number 
