@@ -1,8 +1,11 @@
 Image Processing Code Test Solution
 
 Steps to run the tool:
+
     1. Extract the zip file into a folder
+    
     2. The zip file already has the 5 images given with the task question, for testing other images, they must first be converted to .ppm format online and then pasted in the folder using any online converter like: https://onlineconvertfree.com/convert-format/bmp-to-ppm/
+    
     3. Open the terminal in the same folder or navigate to the folder where you extracted the file and type the below 2 commands to run the file: 
        
        g++ main.cpp -o main.exe
